@@ -7,11 +7,12 @@ import styles from "./Footer.module.css"
 
 export default function Footer () {
 
+    const profileName = "ALEXANDRE MILLET"
 
     return(
         <div className={styles["footer"]}>
             <div className={styles["footer-desc"]}>
-                <h1>PROFILE NAME</h1>
+                <h1>{profileName}</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores assumenda, unde, tempore labore velit, iste dolor reiciendis similique atque quaerat sit molestias aut provident. Laudantium illum architecto adipisci libero enim!</p>
             </div>
             <div className={styles["footer-contacts"]}>
