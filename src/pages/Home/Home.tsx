@@ -61,6 +61,14 @@ export default function Home ():JSX.Element {
                             <Button variant="secondary" link="/audio-e-commerce">LEARN MORE</Button>
                         </div>
                     </div>
+                    <div className={styles["project-link"]}>
+                        <img src="/kanban-platform-launch.png"/>
+                        <div className={styles["project-link-desc"]}>
+                            <h1>Kanban Task Manager</h1>
+                            <p>A React-based Kanban task manager that helps users organize, track, and prioritize tasks across customizable boards.</p>
+                            <Button variant="secondary" link="/kanban-task-manager">LEARN MORE</Button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className={styles.about}>

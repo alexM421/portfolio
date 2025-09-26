@@ -21,9 +21,23 @@
         "projectOverview": [
             "This Audio E-commerce Website is a Frontend Mentor project built entirely with React, designed to simulate a modern online store for premium audio products. Users can explore product categories, view detailed information, and manage their shopping cart with real-time updates. The focus was on creating a polished, intuitive interface that adapts seamlessly across desktop and mobile devices.",
             "React’s component-based structure allowed for clean organization of the UI, with reusable components for product cards, navigation, and cart functionality. State management was used to handle dynamic interactions such as adding items to the cart, adjusting quantities, and calculating totals instantly, ensuring a smooth and responsive user experience.",
-            "The project provided an opportunity to combine design precision with interactive functionality, creating a site that feels like a real e-commerce platform. It demonstrates how React can be used to manage dynamic content, maintain consistent layouts, and deliver a user-friendly shopping experience from browsing to checkout."
+            "The project provided an opportunity to combine design precision with interactive functionality, creating a site that feels like a real e-commerce platform. It demonstrates how React can be used to manage dynamic content, maintain consistent layouts, and deliver a user-friendly shopping experience from browsing to checkout.   "
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
         "projectImage": "/audio-e-commerce.png"
+    },
+    {
+        "projectName": "Kanban Task Manager",
+        "projectSlug": "kanban-task-manager",
+        "projectDesc": "A React-based Kanban task manager that helps users organize, track, and prioritize tasks across customizable boards.",
+        "projectLiveLink": "https://benevolent-crumble-c05ee0.netlify.app/",
+        "projectCodeLink": "https://github.com/alexM421/fm-kanban-task-manager",
+        "projectOverview": [
+            "The Kanban Task Manager is a productivity-focused project built with React, designed to help users manage tasks visually and efficiently. It features draggable task cards across multiple columns, allowing for a flexible workflow that mirrors real-world project management. The responsive design ensures usability on both desktop and mobile devices, keeping task organization seamless anywhere.",
+            "React’s component-driven approach enabled modular design, with reusable components for task cards, columns, and modals. State management handles dynamic interactions such as adding, editing, deleting, and moving tasks between columns, providing instant feedback and a smooth user experience. Local storage or in-memory state ensures that task data persists during the session without a backend.",
+            "This project showcases how interactive frontend applications can simplify complex workflows. By combining visual task tracking with intuitive interactions, it highlights practical skills in React, state management, and responsive UI design, delivering a polished tool for personal or team productivity."
+        ],
+        "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
+        "projectImage": "/kanban-platform-launch.png"
     }
 ]
