@@ -32,13 +32,13 @@ export default function Home ():JSX.Element {
                 <div className={styles["hero-main"]}>
                     <h1>HEY, MY NAME IS {profileName}</h1>
                     <p>I am a passionate frontend developper based in {location}. My speciality is <b>React JS</b> and, and I love building apps that are <b>delightful</b> to use.</p>
-                    <Button>SEE MY PROJECTS</Button>
+                    <Button link="#main" isSamePage={true}>SEE MY PROJECTS</Button>
                 </div>
                 <div className={styles["scroll-indicator"]}>
                     <div className={styles["dot"]}></div>
                 </div>
             </div>
-            <div className={styles.main}>
+            <div className={styles.main} id="main">
                 <div className={styles["main-desc"]}>
                     <h1>PROJECTS</h1>
                     <div className={styles["blue-marker"]}></div>
@@ -46,19 +46,19 @@ export default function Home ():JSX.Element {
                 </div>
                 <div className={styles["main-projects"]}>
                     <div className={styles["project-link"]}>
-                        <img src="/free-nature-images.jpg"/>
+                        <img src="/personnal-finance-app.png"/>
                         <div className={styles["project-link-desc"]}>
-                            <h1>Title test</h1>
-                            <p>test paragpraph</p>
-                            <Button variant="secondary" link="/">LEARN MORE</Button>
+                            <h1>Personnal Finance App</h1>
+                            <p>A responsive personal finance app that helps users track income, expenses, and savings goals with an intuitive dashboard and clean UI.</p>
+                            <Button variant="secondary" link="/personnal-finance-app">LEARN MORE</Button>
                         </div>
                     </div>
                     <div className={styles["project-link"]}>
-                        <img src="/pexels-souvenir.jpg"/>
+                        <img src="/audio-e-commerce.png"/>
                         <div className={styles["project-link-desc"]}>
-                            <h1></h1>
-                            <p></p>
-                            <Button variant="secondary" link="/">LEARN MORE</Button>
+                            <h1>Audio E-Commerce Website</h1>
+                            <p>A responsive audio e-commerce website built with React, featuring product pages, a shopping cart, and a smooth user experience across devices.</p>
+                            <Button variant="secondary" link="/audio-e-commerce">LEARN MORE</Button>
                         </div>
                     </div>
                 </div>

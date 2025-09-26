@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import HomeLayout from './layouts/HomeLayout/HomeLayout'
 //pages
 import Home from './pages/Home/Home'
+import ProjectItem from './pages/ProjectItem/ProjectItem'
 
 export default function App () {
 
@@ -13,7 +14,7 @@ export default function App () {
     <Routes>
       <Route path="/" element={<HomeLayout/>}>
         <Route index element={<Home/>}/>
-        {/* <Route path="/projects" element={<Projects/>}/> */}
+        <Route path="/:projectName" element={<ProjectItem/>}/>
       </Route>
     </Routes>
   )

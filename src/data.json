@@ -1,0 +1,29 @@
+[
+    {
+        "projectName": "Personnal Finance App",
+        "projectSlug": "personnal-finance-app",
+        "projectDesc": "A responsive personal finance app that helps users track income, expenses, and savings goals with an intuitive dashboard and clean UI.",
+        "projectLiveLink": "https://dreamy-cocada-535ced.netlify.app/",
+        "projectCodeLink": "https://github.com/alexM421/fm-personal-finance-app-remake",
+        "projectOverview": [
+            "The Personal Finance App is a Frontend Mentor challenge that I extended using React and Supabase to create a more realistic, data-driven experience. Users can log their income and expenses, view an updated balance, and track spending patterns through charts and summaries. Supabase handles authentication and database storage, ensuring that user data is persistent and secure, while React manages the dynamic rendering of components and state updates.",
+            "From a development perspective, this project was an opportunity to integrate a backend-as-a-service with a modern frontend stack. React’s component-driven structure allowed for reusable layouts and responsive design, while Supabase simplified database interactions, real-time updates, and user authentication. The result is an app that not only meets the visual and responsive requirements of the challenge but also feels like a practical financial tool with real-world functionality."
+        ],
+        "projectTools": ["HTML","CSS","Javascript","React","Typescript","Supabase","GIT"],
+        "projectImage": "/personnal-finance-app.png"
+    },
+    {
+        "projectName": "Audio E-Commerce",
+        "projectSlug": "audio-e-commerce",
+        "projectDesc": "A responsive audio e-commerce website built with React, featuring product pages, a shopping cart, and a smooth user experience across devices.",
+        "projectLiveLink": "https://adorable-pavlova-0b0386.netlify.app/",
+        "projectCodeLink": "https://github.com/alexM421/fm-audio-e-commerce/tree/remake",
+        "projectOverview": [
+            "This Audio E-commerce Website is a Frontend Mentor project built entirely with React, designed to simulate a modern online store for premium audio products. Users can explore product categories, view detailed information, and manage their shopping cart with real-time updates. The focus was on creating a polished, intuitive interface that adapts seamlessly across desktop and mobile devices.",
+            "React’s component-based structure allowed for clean organization of the UI, with reusable components for product cards, navigation, and cart functionality. State management was used to handle dynamic interactions such as adding items to the cart, adjusting quantities, and calculating totals instantly, ensuring a smooth and responsive user experience.",
+            "The project provided an opportunity to combine design precision with interactive functionality, creating a site that feels like a real e-commerce platform. It demonstrates how React can be used to manage dynamic content, maintain consistent layouts, and deliver a user-friendly shopping experience from browsing to checkout."
+        ],
+        "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
+        "projectImage": "/audio-e-commerce.png"
+    }
+]
