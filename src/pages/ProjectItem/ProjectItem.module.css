@@ -1,0 +1,114 @@
+.project-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item-hero{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)),  url("/bg_img.svg");
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+     &>h1{
+            font-size: 60px;
+            margin-block: 40px;
+            font-weight: bold;
+    }
+
+    &>p{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.project-item-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 80px;
+    width: 100%;
+    gap: 80px;
+
+    &>img{
+        width: 1200px;
+        border-radius: 8px;
+        border: 1px solid black;    
+    }
+
+    &>.project-item-text{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        max-width: 1000px;
+        gap: 80px;
+        
+        &>.project-item-overview, &>div{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            &>h1{
+                font-size: 28px;
+                line-height: 42px;
+                font-weight: bold;
+            }
+    
+            &>div{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+    
+                &>p{
+                    font-size: 18px;
+                    line-height: 30.6px;
+                    color: grey;
+                }
+            }
+        }
+
+        &>.project-item-tools{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &>div{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+
+                &>p{
+                    color: gray;
+                    background-color: rgba(153, 153, 153, 0.2);
+                    border-radius: 5px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding: 10px 20px;
+                }
+            }
+        }
+        
+        &>.project-item-links>div{
+            flex-direction: row;
+            gap: 15px;
+
+            &>a{
+                background-color: rgba(0, 98, 185);
+                color: white;
+            }
+
+            &>a:last-of-type{
+                background-color: transparent;
+                border: 1px solid rgba(0, 98, 185);
+                color: rgba(0, 98, 185)
+            }
+        }
+        
+    }
+}
+
