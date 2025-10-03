@@ -17,14 +17,6 @@ type ButtonProps = {
 }
 
 export default function Button ({ children ,link, variant="primary", onClick, openNewTab, isSamePage }: ButtonProps):JSX.Element {
-    
-    if(isSamePage) {
-        return (
-            <a href={link} className={`${styles.button} ${styles[variant]}`} target={openNewTab? "_":""}>
-                { children }
-            </a>
-        )
-    }
 
     if(link){
         const linkElement: JSX.Element = 

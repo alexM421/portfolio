@@ -10,7 +10,8 @@
             "From a development perspective, this project was an opportunity to integrate a backend-as-a-service with a modern frontend stack. React’s component-driven structure allowed for reusable layouts and responsive design, while Supabase simplified database interactions, real-time updates, and user authentication. The result is an app that not only meets the visual and responsive requirements of the challenge but also feels like a practical financial tool with real-world functionality."
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","Supabase","GIT"],
-        "projectImage": "/personnal-finance-app.png"
+        "projectImage": "/personnal-finance-app.png",
+        "projectImageMobile": "/personnal-finance-app-mobile.png"
     },
     {
         "projectName": "Audio E-Commerce",
@@ -24,7 +25,8 @@
             "The project provided an opportunity to combine design precision with interactive functionality, creating a site that feels like a real e-commerce platform. It demonstrates how React can be used to manage dynamic content, maintain consistent layouts, and deliver a user-friendly shopping experience from browsing to checkout.   "
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
-        "projectImage": "/audio-e-commerce.png"
+        "projectImage": "/audio-e-commerce.png",
+        "projectImageMobile": "/fm-audio-e-commerce-mobile.png"
     },
     {
         "projectName": "Kanban Task Manager",
@@ -38,6 +40,7 @@
             "This project showcases how interactive frontend applications can simplify complex workflows. By combining visual task tracking with intuitive interactions, it highlights practical skills in React, state management, and responsive UI design, delivering a polished tool for personal or team productivity."
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
-        "projectImage": "/kanban-platform-launch.png"
+        "projectImage": "/kanban-platform-launch.png",
+        "projectImageMobile": "/kanban-task-management-mobile.png"
     }
 ]

@@ -26,7 +26,7 @@
     
 
         &>a{
-        
+            
             border: 1px solid white;
             display: flex;
             justify-content: center;
@@ -35,25 +35,31 @@
             color: white;
             transition: transform ease 0.3s;
             border-radius: 4px;
-
+            
             &:hover{
                 cursor: pointer;
                 transform: translateX(10px);
             }
-
+            
             &>svg{
-            width: 20px;
-            height: 20px;
+                width: 20px;
+                height: 20px;
             }
         }
+        
+        @media (max-width: 1000px) {
+            display: none;
+            pointer-events: none;
+        }
     }
-
+    
     &>.hero-main{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: auto;
         color: white;
+        padding-inline: 48px;
 
         &>h1{
             font-size: 60px;
@@ -65,6 +71,21 @@
             font-size: 22px;
             text-align: center;
             margin-bottom: 50px;
+        }
+
+        @media (max-width: 700px) {
+
+            padding-inline: 12px;
+
+            &>h1{
+                font-size: 36px;
+                margin-block: 24px;
+            }
+
+            &>p{
+                font-size: 18px;
+                margin-bottom: 32px;
+            }
         }
     }
 
@@ -89,6 +110,11 @@
             transform: translateX(-50%);
             animation: scroll 1.5s infinite;
         }
+    }
+
+    @media (max-width: 500px) {
+        height: auto;
+        padding: 60px 20px 100px 20px;
     }
 }
 
@@ -145,7 +171,9 @@
         }
     }
 
-    
+    @media (max-width: 800px) {
+        padding: 60px 24px;
+    }
 }
 
 .main-projects{
@@ -158,15 +186,39 @@
             display: flex;
             gap: 48px;
 
-            &>img{
+            
+            &>picture{
+                width: auto;
                 padding: 20px;
                 background-color: black;
-                width: 700px;
-                height: 360px;
-                object-fit: cover;
-
+                
+                &>img{
+                    width: 700px;
+                    height: 360px;
+                    object-fit: cover;
+                }                
             }
 
+            @media (max-width: 700px) {
+                &>picture{
+                    min-width: 0px;
+                    width: auto;
+                    padding: 0px;
+                    background-color: transparent;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+
+                    &>img{
+      
+                        display: inline;
+                        width: 100%;
+                        height: auto;
+                        border: 8px solid black;
+                    }
+                }
+            }
+            
             &>div{
                 align-self: center;
                 display: flex;
@@ -174,21 +226,36 @@
                 gap: 20px;
                 width: 360px;
                 align-items: start;
-
+                
                 &>h1{
                     font-size: 28px;
                     font-weight: bold;
                     color: black;
                     line-height: 42px;
                 }
-
+                
                 &>p{
                     font-size: 18px;
                     line-height: 30px;
                     color: rgb(128,128,128);
                 }
             }
+            
+            @media (max-width: 1200px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
 
+                &>div{
+                    width: auto;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+
+            @media (max-width: 800px) {
+                gap: 24px;
+            }
         }
 }
 
@@ -206,8 +273,11 @@
     gap: 20px;
     text-align: center;
 
+
     &>div{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 8px;
 
         &>div{
@@ -231,6 +301,7 @@
     flex-direction: column;
     background-image: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)),  url("/bg_img.svg");
     padding-block: 160px;
+    padding-inline: 16px;
     gap: 20px;
     color: white;
     align-items: center;

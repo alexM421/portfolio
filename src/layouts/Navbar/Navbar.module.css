@@ -15,6 +15,8 @@
         display: flex;
         align-items: center;
         gap: 20px;
+        text-decoration: none;
+        color: inherit;
 
         &>img{
             border-radius: 50%;
@@ -34,6 +36,7 @@
                 color: rgb(0, 98, 185);
             }
         }
+        
     }
     
     &>.nav-links{
@@ -54,6 +57,23 @@
                 opacity: 1;
                 color: rgb(0, 98, 185);
             }
+        }
+
+        @media (max-width: 800px) {
+            gap: 16px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        &>.nav-profile>h1{
+            display: none;
+        }
+
+        gap: 16px;
+        padding-inline: 16px;
+
+        &>.nav-links{
+            gap: 8px;
         }
     }
 }

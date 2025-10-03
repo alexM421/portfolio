@@ -17,12 +17,19 @@ export default function ProjectItemMain ({ projectObj }: ProjectItemMainProps ) 
         projectTools,
         projectLiveLink,
         projectCodeLink, 
-        projectImage
+        projectImage,
+        projectImageMobile
     } = projectObj
 
     return(
         <div className={styles["project-item-main"]}>
-            <img src={projectImage}/>
+            <picture>
+                <source
+                    srcSet={projectImageMobile}
+                    media="(max-width: 700px)"
+                />
+                <img src={projectImage}/>
+            </picture>
             <div className={styles["project-item-text"]}>
                 <div className={styles["project-item-overview"]}>
                     <h1>Project Overview</h1>
@@ -47,10 +54,12 @@ export default function ProjectItemMain ({ projectObj }: ProjectItemMainProps ) 
                     <h1>See Live</h1>
                     <div>
                         <Button
-                            link={projectLiveLink}    
+                            link={projectLiveLink}  
+                            openNewTab={true}  
                         >LIVE LINK</Button>
                         <Button
                             link={projectCodeLink}
+                            openNewTab={true} 
                         >CODE LINK</Button>
                     </div>
                 </div>

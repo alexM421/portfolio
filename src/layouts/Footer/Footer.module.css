@@ -1,8 +1,7 @@
 .footer{
-    
     display: flex;
     justify-content: space-between;
-   
+    gap: 16px;
     color: white;
     background-color: black;
     padding: 80px 64px;
@@ -53,6 +52,18 @@
                     }
                 }
             }
+        }
+    }
+
+    @media (max-width: 700px) {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+        padding: 60px 24px 40px 24px;
+
+        &>.footer-contacts>div{
+           flex-direction: column;
         }
     }
 }
