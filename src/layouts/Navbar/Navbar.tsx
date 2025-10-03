@@ -13,15 +13,19 @@ export default function Navbar ():JSX.Element {
 
     return(
         <div className={styles.nav}>
-            <div className={styles["nav-profile"]}>
+            <a 
+                className={styles["nav-profile"]}
+                href="https://www.linkedin.com/in/alexandre-millet-42137233b/" 
+                target="_"
+            >
                 <img src="/user_icon.png"/>
                 <h1>{profileName}</h1>
-            </div>
+            </a>
             <div className={styles["nav-links"]}>
-                <Link to="/">Home</Link>
-                <Link to="/">Projects</Link>
-                <Link to="/">About</Link>
-                <Link to="/">Contact</Link>
+                <Link to="/#hero">Home</Link>
+                <Link to="/#main">Projects</Link>
+                <Link to="/#about">About</Link>
+                <Link to="/#contact">Contact</Link>
             </div>
         </div>
     )

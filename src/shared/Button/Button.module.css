@@ -9,6 +9,7 @@
     font-weight: bold;
     transition: transform ease 0.3s;
     text-decoration: none;
+        text-align: center;
 
     &:hover{
         cursor: pointer;
@@ -18,6 +19,7 @@
     &:focus{
         outline: none;
     }
+
 }
 
 .secondary{

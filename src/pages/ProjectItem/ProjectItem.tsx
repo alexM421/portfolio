@@ -17,6 +17,7 @@ export type projectObj = {
     projectTools: string[],
     projectSlug: string,
     projectImage: string,
+    projectImageMobile: string,
 }
 
 
