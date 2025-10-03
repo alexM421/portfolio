@@ -16,7 +16,7 @@ type ButtonProps = {
     isSamePage?: boolean,
 }
 
-export default function Button ({ children ,link, variant="primary", onClick, openNewTab, isSamePage }: ButtonProps):JSX.Element {
+export default function Button ({ children ,link, variant="primary", onClick, openNewTab }: ButtonProps):JSX.Element {
 
     if(link){
         const linkElement: JSX.Element = 
