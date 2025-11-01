@@ -39,7 +39,7 @@
             "React’s component-driven approach enabled modular design, with reusable components for task cards, columns, and modals. State management handles dynamic interactions such as adding, editing, deleting, and moving tasks between columns, providing instant feedback and a smooth user experience. Local storage or in-memory state ensures that task data persists during the session without a backend.",
             "This project showcases how interactive frontend applications can simplify complex workflows. By combining visual task tracking with intuitive interactions, it highlights practical skills in React, state management, and responsive UI design, delivering a polished tool for personal or team productivity."
         ],
-        "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
+        "projectTools": ["HTML","CSS","Javascript","React","GIT"],
         "projectImage": "/kanban-platform-launch.png",
         "projectImageMobile": "/kanban-task-management-mobile.png"
     }
