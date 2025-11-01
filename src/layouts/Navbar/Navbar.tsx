@@ -18,7 +18,7 @@ export default function Navbar ():JSX.Element {
                 href="https://www.linkedin.com/in/alexandre-millet-42137233b/" 
                 target="_"
             >
-                <img src="/user_icon.png"/>
+                <img src="/alex_photo.jpg"/>
                 <h1>{profileName}</h1>
             </a>
             <div className={styles["nav-links"]}>
