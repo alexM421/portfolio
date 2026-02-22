@@ -48,6 +48,20 @@ export default function Home ():JSX.Element {
                     <div className={styles["project-link"]}>
                         <picture>
                             <source
+                                srcSet="/flashcard-app-mobile.jpg"
+                                media="(max-width:700px)"
+                            />
+                            <img src="/flashcard-app.jpg"/>
+                        </picture>
+                        <div className={styles["project-link-desc"]}>
+                            <h1>Flashcard App</h1>
+                            <p>Responsive flashcard app with anonymous signin. Flashcards are stored via Supabase accessed through express API backend.</p>
+                            <Button variant="secondary" link="/flashcard-app">LEARN MORE</Button>
+                        </div>
+                    </div>
+                    <div className={styles["project-link"]}>
+                        <picture>
+                            <source
                                 srcSet="/personnal-finance-app-mobile.png"
                                 media="(max-width:700px)"
                             />

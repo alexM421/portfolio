@@ -1,5 +1,20 @@
 [
     {
+        "projectName": "Flashcard App",
+        "projectSlug": "flashcard-app",
+        "projectDesc": "Responsive flashcard app with anonymous sign-in. Create and study flashcards with category filters and mastery tracking. Data is stored in Supabase and accessed via an Express API backend.",
+        "projectLiveLink": "https://bright-daifuku-350dd2.netlify.app/",
+        "projectCodeLink": "https://github.com/alexM421/fm-flashcard-app",
+        "projectOverview": [
+            "This Flashcard App is a Frontend Mentor solution built with React (Vite, TypeScript) and a Node/Express backend. Users can create, edit, and delete flashcards with question, answer, and category; study in Study Mode with flip-to-reveal and an \"I Know This\" mastery scale (0–5); and filter by category, hide mastered cards, shuffle, and view stats. The UI is responsive and keyboard-navigable, with toasts for create/update/delete.",
+            "The frontend uses React Router, Motion for flip and transition animations, and optional env-based API base URL. The backend proxies flashcard CRUD and known-count updates to Supabase; auth and database are handled by Supabase. The backend can also be run in Docker. The stack demonstrates full-stack integration: React SPA, Express API, and Supabase.",
+            "Built with React 19, Vite, TypeScript, React Router, Motion, Supabase, Express, Docker, and Netlify. The project highlights component-driven UI, state management, form validation, and responsive, accessible design for a practical study tool."
+        ],
+        "projectTools": ["HTML","CSS","Javascript","React","Typescript","React Router","Supabase","Express","Docker","GIT"],
+        "projectImage": "/flashcard-app.jpg",
+        "projectImageMobile": "/flashcard-app-mobile.jpg"
+    },
+    {
         "projectName": "Personnal Finance App",
         "projectSlug": "personnal-finance-app",
         "projectDesc": "A responsive personal finance app that helps users track income, expenses, and savings goals with an intuitive dashboard and clean UI.",
@@ -7,7 +22,7 @@
         "projectCodeLink": "https://github.com/alexM421/fm-personal-finance-app-remake",
         "projectOverview": [
             "The Personal Finance App is a Frontend Mentor challenge that I extended using React and Supabase to create a more realistic, data-driven experience. Users can log their income and expenses, view an updated balance, and track spending patterns through charts and summaries. Supabase handles authentication and database storage, ensuring that user data is persistent and secure, while React manages the dynamic rendering of components and state updates.",
-            "From a development perspective, this project was an opportunity to integrate a backend-as-a-service with a modern frontend stack. React’s component-driven structure allowed for reusable layouts and responsive design, while Supabase simplified database interactions, real-time updates, and user authentication. The result is an app that not only meets the visual and responsive requirements of the challenge but also feels like a practical financial tool with real-world functionality."
+            "From a development perspective, this project was an opportunity to integrate a backend-as-a-service with a modern frontend stack. React's component-driven structure allowed for reusable layouts and responsive design, while Supabase simplified database interactions, real-time updates, and user authentication. The result is an app that not only meets the visual and responsive requirements of the challenge but also feels like a practical financial tool with real-world functionality."
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","Supabase","GIT"],
         "projectImage": "/personnal-finance-app.png",
@@ -21,7 +36,7 @@
         "projectCodeLink": "https://github.com/alexM421/fm-audio-e-commerce/tree/remake",
         "projectOverview": [
             "This Audio E-commerce Website is a Frontend Mentor project built entirely with React, designed to simulate a modern online store for premium audio products. Users can explore product categories, view detailed information, and manage their shopping cart with real-time updates. The focus was on creating a polished, intuitive interface that adapts seamlessly across desktop and mobile devices.",
-            "React’s component-based structure allowed for clean organization of the UI, with reusable components for product cards, navigation, and cart functionality. State management was used to handle dynamic interactions such as adding items to the cart, adjusting quantities, and calculating totals instantly, ensuring a smooth and responsive user experience.",
+            "React's component-based structure allowed for clean organization of the UI, with reusable components for product cards, navigation, and cart functionality. State management was used to handle dynamic interactions such as adding items to the cart, adjusting quantities, and calculating totals instantly, ensuring a smooth and responsive user experience.",
             "The project provided an opportunity to combine design precision with interactive functionality, creating a site that feels like a real e-commerce platform. It demonstrates how React can be used to manage dynamic content, maintain consistent layouts, and deliver a user-friendly shopping experience from browsing to checkout.   "
         ],
         "projectTools": ["HTML","CSS","Javascript","React","Typescript","GIT"],
@@ -36,7 +51,7 @@
         "projectCodeLink": "https://github.com/alexM421/fm-kanban-task-manager",
         "projectOverview": [
             "The Kanban Task Manager is a productivity-focused project built with React, designed to help users manage tasks visually and efficiently. It features draggable task cards across multiple columns, allowing for a flexible workflow that mirrors real-world project management. The responsive design ensures usability on both desktop and mobile devices, keeping task organization seamless anywhere.",
-            "React’s component-driven approach enabled modular design, with reusable components for task cards, columns, and modals. State management handles dynamic interactions such as adding, editing, deleting, and moving tasks between columns, providing instant feedback and a smooth user experience. Local storage or in-memory state ensures that task data persists during the session without a backend.",
+            "React's component-driven approach enabled modular design, with reusable components for task cards, columns, and modals. State management handles dynamic interactions such as adding, editing, deleting, and moving tasks between columns, providing instant feedback and a smooth user experience. Local storage or in-memory state ensures that task data persists during the session without a backend.",
             "This project showcases how interactive frontend applications can simplify complex workflows. By combining visual task tracking with intuitive interactions, it highlights practical skills in React, state management, and responsive UI design, delivering a polished tool for personal or team productivity."
         ],
         "projectTools": ["HTML","CSS","Javascript","React","GIT"],
