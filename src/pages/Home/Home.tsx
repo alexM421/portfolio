@@ -15,7 +15,7 @@ import type { JSX } from "react"
 export default function Home ():JSX.Element {
 
 
-    const mySkills: string[] = ["HTML","CSS","JavaScript","React","TypeScript","Git"]
+    const mySkills: string[] = ["HTML","CSS","JavaScript","React","TypeScript","Git","Node","Express","PostgreSQL","Docker","Next.js"]
     const profileName: string = "ALEXANDRE MILLET"
     const location: string = "France"
     const email: string = "alexandremillet421@gmail.com"
@@ -31,7 +31,7 @@ export default function Home ():JSX.Element {
                 </div>
                 <div className={styles["hero-main"]}>
                     <h1>HEY, MY NAME IS {profileName}</h1>
-                    <p>I am a passionate frontend developper based in {location}. My speciality is <b>React JS</b> and, and I love building apps that are <b>delightful</b> to use.</p>
+                    <p>I am a passionate web developper based in {location}. My speciality is <b>React JS</b> and, and I love building apps that are <b>delightful</b> to use.</p>
                     <Button link="#main" isSamePage={true}>SEE MY PROJECTS</Button>
                 </div>
                 <div className={styles["scroll-indicator"]}>
@@ -107,7 +107,7 @@ export default function Home ():JSX.Element {
                 <div className={styles["about-text"]}>
                     <h1>ABOUT ME</h1>
                     <div className={styles["blue-marker"]}></div>
-                    <p>I'm a frontend developer based out in {location}. I enjoy building responsive, accessible, and user-friendly web applications. My specialities includes TypeScript and React JS.</p>
+                    <p>I'm a web developer based out in {location}. I enjoy building responsive, accessible, and user-friendly web applications. My specialities includes TypeScript and React JS.</p>
                 </div>
                 <div className={styles["about-skills"]}>
                     <h1>My Skills</h1>
