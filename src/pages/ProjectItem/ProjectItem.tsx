@@ -21,7 +21,7 @@ export type projectObj = {
 }
 
 
-export default function ProjectItem ({}) {
+export default function ProjectItem () {
 
     const location = useLocation().pathname.replace("/","")
 
